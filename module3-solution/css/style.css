@@ -1,0 +1,85 @@
+body{
+	font-size: 16px;
+	color:#fff;
+	background-color: lightblue;
+	font-family: 'Oxygen', sans-serif;
+}
+/**Header**/
+#header-nav {
+	position: relative;
+	background-color: lightyellow;
+	border-radius: 0;
+	border: 0;
+	height: 65px;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Company Name */
+	font-family: Georgia, serif;
+	color: #557c3e;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#dd-btn {
+	clear: both;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#dd-btn li {
+	text-align: center;
+	width: 100%;
+}
+#main-content>p {
+	font-size: 1.3em;
+}
+#chickenmenu, #beefmenu, #sushimenu {
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3f0C1F;
+	overflow: hidden;
+	text-align: center;
+	padding-bottom: 2px;
+}
+#menu-tiles span {
+	font-size: 1.3em;
+	color: black;
+	text-align: center;
+}
+
+/*media queries*/
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Company name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #dd-btn a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  
+/**super extra small **/
+@media (max-width: 479px) {
+	
+	.navbar-brand h1{
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+}
+/* media queries */
